@@ -1,0 +1,13 @@
+
+[Unit]
+Description=Lua Telegram Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/lua5.3 /root/bot.lua
+WorkingDirectory=/root
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
