@@ -3,7 +3,7 @@ local https = require("ssl.https")
 local ltn12 = require("ltn12")
 local json = require("dkjson")
 
-local bot_token = "YOUR_BOT_TOKEN_HERE"
+local bot_token = "953062624:AAHSr4IHh7hLeZiDk4NVJYPrqSK1ZLwcn2M"
 local api_url = "https://api.telegram.org/bot" .. bot_token
 
 -- دالة إرسال رسالة
