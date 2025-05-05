@@ -1,6 +1,6 @@
 -- إعداد المتغيرات الأساسية
-local bot_token = "YOUR_BOT_TOKEN"  -- استبدلها بتوكن البوت
-local admin_id = "YOUR_ADMIN_CHAT_ID"  -- استبدلها بمعرف الأدمن
+local bot_token = "953062624:AAHSr4IHh7hLeZiDk4NVJYPrqSK1ZLwcn2M"  -- استبدلها بتوكن البوت
+local admin_id = "426795071"  -- استبدلها بمعرف الأدمن
 local members = {}
 local banned_users = {}
 
