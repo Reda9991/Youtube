@@ -100,12 +100,10 @@ while true do
                     f:write(url)
                     f:close()
                     os.execute(string.format(
-                        'curl -s -X POST https://api.telegram.org/bot%s/sendMessage -d chat_id=%s -d text="اختار النوع:
-/vid → فيديو
-/audio → صوت"',
-                        telegram_bot_token, user_id
-                    ))
-                    print("تم حفظ الرابط للمستخدم - ID: " .. user_id)
+    "curl -s -X POST https://api.telegram.org/bot%s/sendMessage -d chat_id=%s -d text=\"اختار النوع:\n/vid → فيديو\n/audio → صوت\"",
+    bot_token, chat_id))                  
+               
+                 print("تم حفظ الرابط للمستخدم - ID: " .. user_id)
                 elseif text == "/vid" then
                     local pending_file = user_id .. "_pending.txt"
                     local f = io.open(pending_file, "r")
