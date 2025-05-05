@@ -1,6 +1,6 @@
 
-local telegram_bot_token = "توكن_البوت"
-local admin_id = "ID_الادمن"
+local telegram_bot_token = "953062624:AAHSr4IHh7hLeZiDk4NVJYPrqSK1ZLwcn2M"
+local admin_id = "426795071"
 local users_file = "users.txt"
 local banned_file = "banned.txt"
 
